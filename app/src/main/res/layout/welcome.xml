@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="329dp"
+        app:srcCompat="@drawable/welcome" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:layout_below="@id/imageView"
+        android:layout_marginTop="-14dp"
+        android:fontFamily="@font/poppinsbold"
+        android:gravity="center"
+        android:text="SarzamTasty"
+        android:textSize="40dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:layout_below="@id/imageView"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="52dp"
+        android:fontFamily="@font/poppinsregular"
+        android:gravity="center"
+        android:text="@string/deskripsi"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="293dp"
+        android:layout_height="59dp"
+        android:layout_below="@id/textView2"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="22dp"
+        android:backgroundTint="@color/black"
+        android:fontFamily="@font/poppinsregular"
+        android:text="Login"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="293dp"
+        android:layout_height="59dp"
+        android:layout_below="@id/button"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="22dp"
+        android:backgroundTint="@color/black"
+        android:fontFamily="@font/poppinsregular"
+        android:text="Register"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+</RelativeLayout>
